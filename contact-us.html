@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact-us</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="varieties.html"> Varieties</a></li>
+            <li><a href="environments.html"> Environments</a></li>
+            <li><a href="contact-us.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <h1> Fill in this form to reach us</h1>
+    <form action="/ form handling url" method="post">
+        <fieldset>
+            <legend>Add Your Details</legend>
+            <br>
+            <div>
+                <label for="firstname">firstname</label>
+                <input type="text" id="firstname" name="first_name">
+            </div>
+            <br>
+            <div>
+                <label for="Lastname">Lastname</label>
+                <input type="text" id="lastname" name="last_name">
+            </div>
+            <br>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email_address">
+            </div>
+            <br>
+            <div>
+                <label for="status">Status</label>
+                <select name="Status" id="status">
+                    <option value="Farmer">Farmer</option>
+                    <option value="Chef">Chef</option>
+                    <option value="Home Owner">Home Owner</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="comments">Comments</label>
+                <textarea name="Comments" id="comments" cols="30" rows="10"></textarea>
+            </div>
+            <br>
+            <div>
+                <label for="currentdate">Currentdate</label>
+                <input type="date" id="currentdate" name="current_date">
+            </div>
+            <br>
+            <div>
+                <label for="newsletter">Sign up for Newsletter</label>
+                <input type="checkbox" id="newsletter" name="newsletter" value="subscribed_to_newsletter">
+            </div>
+            <br>
+            <div>
+                <label for="tandc">Agree to terms and conditions</label>
+                <input type="checkbox" id="tandc" name="Terms_and_Conditions">
+            </div>
+            <br>
+            <div>
+                <button type="submit">Submit</button>
+            </div>
+            <br>
+        </fieldset>
+    </form>
+    
+</body>
+</html>

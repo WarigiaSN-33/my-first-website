@@ -1,0 +1,126 @@
+body {
+    font-family: montserrat;
+}
+nav{
+    position:relative;
+    display:flex;
+    top: 10px;
+    left:0;
+    width: 100vw;
+    height:50px;
+    padding: 20px 30px;
+    box-sizing: border-box;
+    background-color: none;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+}
+
+nav ul{
+    list-style: none;
+    margin:0;
+    padding:0;
+    display:flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+nav ul li a{
+    line-height: 10px;
+    color:black;
+    padding:10px 50px 10px;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    background: pink;
+    border-radius:6px;
+}
+fieldset{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1, h2{
+    text-align: center;
+}
+img{
+    width: 200px;
+    height:200px;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+tr{
+    text-align: center;
+}
+.shape-1 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.shape-2{
+    top: 50;
+    display:flex;
+    margin-left:20px;
+    width:fit-content;
+    height: fit-content;
+    padding:10px 10px 10px;
+    box-sizing:border-box;
+    background-color: none;
+    border: 2px solid;
+}
+.picture{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    display:flex;
+    width: 550px;
+    height: 400px;
+}
+.shape-4{
+    position: relative;
+    top: 300;
+    display:flex;
+    margin-left:10px;
+    width:fit-content;
+    height: fit-content;
+    padding:10px 10px 10px;
+    box-sizing:border-box;
+    background-color: none;
+    border: 2px solid;
+}
+.shape-5{
+    position: relative;
+    display:flex;
+    margin-left:10px;
+    width:fit-content;
+    height: fit-content;
+    padding:10px 10px 10px;
+    box-sizing:border-box;
+    background-color: none;
+    border: 2px solid; 
+}
+.shape-6{
+        position: relative;
+        display: flex;
+        margin-left: 10px;
+        width: fit-content; 
+        height: fit-content;
+        padding:10px 10px 10px;
+        box-sizing: border-box; 
+        background-color: none; 
+        border: 2px solid;
+
+}
+.shape-7{
+    position: relative;
+    display: flex;
+    margin-left: auto;
+    margin-right:auto;
+    width: 800px; 
+    height: 400px;
+      
+}
